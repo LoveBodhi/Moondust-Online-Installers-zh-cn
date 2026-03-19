@@ -81,6 +81,43 @@ en.DestinationLocation =Destination location
 ru.DestinationLocation =Путь установки
 es.DestinationLocation =Ubicación de destino
 
+; Menu group items
 en.UserDirectoryPath =User directory path
 ru.UserDirectoryPath =Путь к пользовательской директории
 es.UserDirectoryPath =Ruta de directorio del usuario
+
+en.ToolsGroup =Tools
+ru.ToolsGroup =Инструменты
+es.ToolsGroup =Herramienta
+
+en.LicensesGroup =Licenses
+ru.LicensesGroup =Лицензии
+es.LicensesGroup =Licencias
+
+en.ChangelogLink =Changelog
+ru.ChangelogLink =Список изменений
+es.ChangelogLink =Registro de Cambios
+
+en.AppCalibrator =Character Calibrator
+ru.AppCalibrator =Калибратор игровых персонажей
+es.AppCalibrator =Calibrador de personajes del juego
+
+en.AppMusicPlayer =Moondust Music Player
+ru.AppMusicPlayer =Музыкальный проигрыватель
+es.AppMusicPlayer =Reproductor de música
+
+en.AppMaintainer =Moondust Maintainer
+ru.AppMaintainer =Набор инструментов Moondust
+es.AppMaintainer =Kit de herramientas Moondust
+
+en.AppEditor =Moondust Editor
+ru.AppEditor =Редактор Moondust
+es.AppEditor =Editor Moondust
+
+en.AppEditorHelp =Moondust Editor Help
+ru.AppEditorHelp =Редактор Moondust - Справка на английском языке
+es.AppEditorHelp =Moondust Editor - Ayuda en Inglés
+
+en.AppEngine =Moondust Runtime
+ru.AppEngine =Moondust - Запуск игр
+es.AppEngine =Moondust - Lanzamiento de juegos

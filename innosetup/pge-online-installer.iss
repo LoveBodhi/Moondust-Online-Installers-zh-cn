@@ -141,24 +141,24 @@ Name: "{app}\configs"
 Name: "{app}\worlds"
 
 [Icons]
-Name: "{group}\Moondust Editor"; Filename: "{app}\pge_editor.exe";  Components: devkit\editor
-Name: "{group}\Changelog (Editor)"; Filename: "{app}\changelog.editor.txt";  Components: devkit\editor
-Name: "{group}\Moondust Editor Help"; Filename: "{app}\help\manual_editor.html";  Components: devkit\help
+Name: "{group}\{cm:AppEditor}"; Filename: "{app}\pge_editor.exe";  Components: devkit\editor
+Name: "{group}\{cm:ChangelogLink} (Editor)"; Filename: "{app}\changelog.editor.txt";  Components: devkit\editor
+Name: "{group}\{cm:AppEditorHelp}"; Filename: "{app}\help\manual_editor.html";  Components: devkit\help
 
-Name: "{group}\Moondust Engine"; Filename: "{app}\pge_engine.exe";  Components: engine
+Name: "{group}\{cm:AppEngine}"; Filename: "{app}\pge_engine.exe";  Components: engine
 Name: "{group}\Moondust Engine Readme"; Filename: "{app}\pge_engine.readme.txt";  Components: engine
-Name: "{group}\Moondust Engine License (GPLv3)"; Filename: "{app}\pge_engine.license.gpl3.txt";  Components: engine
-Name: "{group}\Moondust Engine License (MIT)"; Filename: "{app}\pge_engine.license.mit.txt";  Components: engine
-Name: "{group}\Changelog (Engine)"; Filename: "{app}\changelog.engine.txt";  Components: engine
+Name: "{group}\{cm:LicensesGroup}\Moondust Engine License (GPLv3)"; Filename: "{app}\licenses\pge_engine.license.gpl3.txt";  Components: engine
+Name: "{group}\{cm:LicensesGroup}\Moondust Engine License (MIT)"; Filename: "{app}\licenses\pge_engine.license.mit.txt";  Components: engine
+Name: "{group}\{cm:ChangelogLink} (Engine)"; Filename: "{app}\changelog.engine.txt";  Components: engine
 
-Name: "{group}\License (GPLv3)"; Filename: "{app}\GPLv3.txt";
+Name: "{group}\{cm:LicensesGroup}\License (GPLv3)"; Filename: "{app}\licenses\LICENSE.txt";
 
-Name: "{group}\Tools\Character Calibrator"; Filename: "{app}\pge_calibrator.exe";  Components: devkit\tools
-Name: "{group}\Tools\Maintainer"; Filename: "{app}\pge_maintainer.exe";  Components: devkit\tools
-Name: "{group}\Tools\Moondust Music Player"; Filename: "{app}\pge_musplay.exe";  Components: devkit\tools
-Name: "{group}\Tools\GIFs2PNG Console tool readme"; Filename: "{app}\GIFs2PNG.readme.txt";  Components: devkit\tools
-Name: "{group}\Tools\PNG2GIFs Console tool readme"; Filename: "{app}\PNG2GIFs.readme.txt";  Components: devkit\tools
-Name: "{group}\Tools\LazyFixTool Console tool readme"; Filename: "{app}\LazyFixTool.readme.txt";  Components: devkit\tools
+Name: "{group}\{cm:ToolsGroup}\{cm:AppCalibrator}"; Filename: "{app}\pge_calibrator.exe";  Components: devkit\tools
+Name: "{group}\{cm:ToolsGroup}\{cm:AppMaintainer}"; Filename: "{app}\pge_maintainer.exe";  Components: devkit\tools
+Name: "{group}\{cm:ToolsGroup}\{cm:AppMusicPlayer}"; Filename: "{app}\pge_musplay.exe";  Components: devkit\tools
+Name: "{group}\{cm:ToolsGroup}\GIFs2PNG Console tool readme"; Filename: "{app}\GIFs2PNG.readme.txt";  Components: devkit\tools
+Name: "{group}\{cm:ToolsGroup}\PNG2GIFs Console tool readme"; Filename: "{app}\PNG2GIFs.readme.txt";  Components: devkit\tools
+Name: "{group}\{cm:ToolsGroup}\LazyFixTool Console tool readme"; Filename: "{app}\LazyFixTool.readme.txt";  Components: devkit\tools
 
 Name: "{group}\{cm:ProgramOnTheWeb,{#MyAppName}}"; Filename: "{#MyAppURL}"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
