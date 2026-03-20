@@ -5,11 +5,7 @@ Name: "pl"; MessagesFile: "compiler:Languages\Polish.isl"
 Name: "pt_br"; MessagesFile: "compiler:Languages\Portuguese.isl"
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "es"; MessagesFile: "compiler:Languages\Spanish.isl"
-<<<<<<< HEAD
 Name: "zh"; MessagesFile: ".\includes\extra\ChineseSimplified.isl"
-=======
-Name: "zh"; MessagesFile: "compiler:Languages\SimplifiedChinese.isl"
->>>>>>> 0e2b091 (Add zh-cn Translation)
 
 #include <idp.iss>
 #include <idplang\German.iss>
