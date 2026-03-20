@@ -5,6 +5,7 @@ Name: "pl"; MessagesFile: "compiler:Languages\Polish.isl"
 Name: "pt_br"; MessagesFile: "compiler:Languages\Portuguese.isl"
 Name: "ru"; MessagesFile: "compiler:Languages\Russian.isl"
 Name: "es"; MessagesFile: "compiler:Languages\Spanish.isl"
+Name: "zh"; MessagesFile: ".\includes\extra\ChineseSimplified.isl"
 
 #include <idp.iss>
 #include <idplang\German.iss>
